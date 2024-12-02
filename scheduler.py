@@ -25,6 +25,7 @@ try:
 except subprocess.CalledProcessError as e:
     print(f"An error occurred: {e}")
 
+
 import os
 username = os.getlogin()
 print(f"Username: {username}")
